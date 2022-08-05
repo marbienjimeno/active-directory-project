@@ -1,0 +1,11 @@
+First Name,Last Name,JobTitle,Phone,Email,Description,Organizational Unit,Enabled
+Daisy,Craig,Jr. Engineer,359-1012-84,dcraig@mydomain.com,Data collection/analysis and project documentation,"OU=_ENGR,OU=Domain Users,OU=mydomain,DC=mydomain,DC=com",TRUE
+Ellia,Kelley,Project Manager,681-3513-34,ekelley@mydomain.com,Overseeing of budget and schedules,"OU=_MGR,OU=Domain Users,OU=mydomain,DC=mydomain,DC=com",TRUE
+Amber,Miller,Jr. Engineer,535-1659-07,amiller@mydomain.com,Data collection/analysis and project documentation,"OU=_ENGR,OU=Domain Users,OU=mydomain,DC=mydomain,DC=com",TRUE
+Marcus,Carter,Project Manager,799-5260-08,mcarter@mydomain.com,Overseeing of budget and schedules,"OU=_MGR,OU=Domain Users,OU=mydomain,DC=mydomain,DC=com",TRUE
+Brianna,Harrison,Assoc. Engineer,847-9263-64,bharrison@mydomain.com,Associate engineer – design and architecture of software system,"OU=_ENGR,OU=Domain Users,OU=mydomain,DC=mydomain,DC=com",FALSE
+Edgar,Cameron,Project Manager,078-0185-35,ecamerson@mydomain.com,Overseeing of budget and schedules,"OU=_MGR,OU=Domain Users,OU=mydomain,DC=mydomain,DC=com",TRUE
+Adelaide,Gray,Assoc. Engineer,999-5714-42,agray@mydomain.com,Associate engineer – design and architecture of software system,"OU=_ENGR,OU=Domain Users,OU=mydomain,DC=mydomain,DC=com",TRUE
+Roland,Tucker,Sr. Engineer,253-2566-32,rtucker@mydomain.com,Senior engineer – design and architecture of software system,"OU=_ENGR,OU=Domain Users,OU=mydomain,DC=mydomain,DC=com",TRUE
+Arnold,Carter,Jr. Engineer,496-7128-97,acarter@mydomain.com,Data collection/analysis and project documentation,"OU=_ENGR,OU=Domain Users,OU=mydomain,DC=mydomain,DC=com",FALSE
+Dominik,Spencer,Jr. Engineer,123-4759-55,dspencer@mydomain.com,Data collection/analysis and project documentation,"OU=_ENGR,OU=Domain Users,OU=mydomain,DC=mydomain,DC=com",FALSE
