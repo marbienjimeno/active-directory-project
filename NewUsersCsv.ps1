@@ -21,13 +21,10 @@ ForEach ($user in $users) {
 
     # Add new user to active directory
     New-ADUser `
-        # Enters values of new user based on data from CSV file
         -Name ($user.'First Name' + " " + $user.'Last Name') `
         -GivenName $user.'First Name' `
         -Surname $user.'Last Name' `
-        # Previously formatted username object is used
         -UserPrincipalName $username `
-        # The variable holding the default password is used and encryption is performed
         -AccountPassword (ConvertTo-SecureString $DEFAULT_PASS -AsPlainText -Force) `
         -Description $user.Description `
         -EmailAddress $users.'Email Address' `
@@ -35,7 +32,5 @@ ForEach ($user in $users) {
         -OfficePhone $user.Phone `
         -Path $user.'Organizational Unit' `
         -Enabled ([System.Convert]::ToBoolean($user.Enabled)) `
-        # The user does not have the change their password at next logon. This is normally
-        # set to true but, for lab purposes, the feature is turned off
         -ChangePasswordAtLogon 1
 }
