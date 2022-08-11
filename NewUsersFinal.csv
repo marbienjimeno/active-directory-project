@@ -1,4 +1,4 @@
-First Name,Last Name,JobTitle,Phone,Email,Description,Organizational Unit,Enabled
+First Name,Last Name,Job Title,Phone,Email,Description,Organizational Unit,Enabled
 Daisy,Craig,Jr. Engineer,359-1012-84,dcraig@mydomain.com,Data collection/analysis and project documentation,"OU=_ENGR,OU=Domain Users,OU=mydomain,DC=mydomain,DC=com",TRUE
 Ellia,Kelley,Project Manager,681-3513-34,ekelley@mydomain.com,Overseeing of budget and schedules,"OU=_MGR,OU=Domain Users,OU=mydomain,DC=mydomain,DC=com",TRUE
 Amber,Miller,Jr. Engineer,535-1659-07,amiller@mydomain.com,Data collection/analysis and project documentation,"OU=_ENGR,OU=Domain Users,OU=mydomain,DC=mydomain,DC=com",TRUE
