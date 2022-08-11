@@ -27,7 +27,7 @@ ForEach ($user in $users) {
         -UserPrincipalName $username `
         -AccountPassword (ConvertTo-SecureString $DEFAULT_PASS -AsPlainText -Force) `
         -Description $user.Description `
-        -EmailAddress $users.Email `
+        -EmailAddress $user.Email `
         -Title $user.'Job Title' `
         -OfficePhone $user.Phone `
         -Path $user.'Organizational Unit' `
